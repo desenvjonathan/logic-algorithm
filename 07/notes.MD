@@ -12,6 +12,6 @@ Perguntas a serem feitas:
 # Ferramentas da lingugem que abordamemos
 
 [] loop while
-[] array e funções de arrays
+[] array e funções de arrays (.push)
 [] condicional switch e if/else
 [] template literals (strings)

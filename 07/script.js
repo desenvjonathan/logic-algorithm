@@ -40,17 +40,25 @@ while (option != 3) {
   3. Sair do programa
   `))//digitar APENAS números, caso digite letras, dará o erro NaN na aplicação
 
-  if (option == 1) {
-    let item = prompt("Digite o nome do item")
+  switch(option) {
+    case 1:
+      let item = prompt("Digite o nome do item")
     items.push(item) //vai incrementar com um item
-  } else if (option == 2) {
-
-    if (items.length == 0) {
-      alert("Não existem itens cadastrados")
-    } else {
-      alert(items)
-    }
-  } else {
-    alert("Tchau!")
+      // sequência aqui caso seja 1
+      break;
+    case 2:
+      if (items.length == 0) {
+        alert("Não existem itens cadastrados")
+      } else {
+        alert(items)
+      }
+      // sequência aqui caso seja 2
+      break;
+    case 3:
+      alert("Tchau!")
+      break;
+    default:
+      alert("Opção inválida, tente novamente")
+      // caminho padrão quando não é um dos casos acima
   }
 }
