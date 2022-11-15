@@ -12,7 +12,7 @@
   Em ambos os casos, mostre uma mensagem com o nome do aluno e a nota.
 */
 
-let student = prompt ("Qual o nome do(a) aluno(a)")
+let student = prompt ("Qual o nome do(a) aluno(a)?")
 let note1 = prompt ("Qual a nota da primeira prova?")
 let note2 = prompt ("Qual a nota da segunda prova?")
 let note3 = prompt ("Qual a nota da terceira prova?")
